@@ -45,13 +45,13 @@ In WSL2, Ubuntu 22.04
 
 ```bash
 sudo apt-get update
-sudo apt-get install texlive-full biber texlive-lang-french texlive-latex-extra
+sudo apt-get install texlive-full biber texlive-lang-french texlive-latex-extra python3-pygments
 ```
 
 ## How to build the PDF
 
 ```bash
-pdftex -shell-escape thesis.tex
+pdftex --shell-escape thesis.tex
 biber thesis
-pdftex -shell-escape thesis.tex
+pdftex --shell-escape thesis.tex
 ```
