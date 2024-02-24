@@ -38,3 +38,20 @@ Say goodbye to ugly and proprietary MS Word files!
 - Maria Sisto, for the title page
 - Loïc Monney, for the section title style, captions style and font idea
 - EPFL, for the basic structure
+
+## How to install LaTeX
+
+In WSL2, Ubuntu 22.04
+
+```bash
+sudo apt-get update
+sudo apt-get install texlive-full biber texlive-lang-french texlive-latex-extra
+```
+
+## How to build the PDF
+
+```bash
+pdftex -shell-escape thesis.tex
+biber thesis
+pdftex -shell-escape thesis.tex
+```
