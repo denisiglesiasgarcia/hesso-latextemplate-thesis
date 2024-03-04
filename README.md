@@ -35,11 +35,12 @@ Say goodbye to ugly and proprietary MS Word files!
 
 ## Thanks to
 
+- Marc Demierre [@mdemierre](https://github.com/mdemierre) for the template
 - Maria Sisto, for the title page
 - Loïc Monney, for the section title style, captions style and font idea
 - EPFL, for the basic structure
 
-## How to install LaTeX
+## How to install LaTeX on Windows
 
 In WSL2, Ubuntu 22.04
 
