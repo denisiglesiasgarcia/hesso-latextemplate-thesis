@@ -51,7 +51,7 @@ sudo apt-get install texlive-full biber texlive-lang-french texlive-latex-extra 
 ## How to build the PDF
 
 ```bash
-pdftex --shell-escape thesis.tex
+pdflatex --shell-escape thesis.tex
 biber thesis
-pdftex --shell-escape thesis.tex
+pdflatex --shell-escape thesis.tex
 ```
